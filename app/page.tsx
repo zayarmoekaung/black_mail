@@ -9,12 +9,12 @@ export default function Home() {
         <Image
           src={mainbg}
           alt="hide the pain"
-          className="absolute top-0 left-0 z-1 h-full"
+          className="absolute top-0 left-0 z-1 h-full object-cover"
         />
         <div className="absolute top-0 left-0 w-full z-2 h-full bg-black backdrop-blur-sm opacity-60 p-20">
-          <h1 className={`${aileron.className} hero_title`}>BLACKMA I L MONSTER</h1>
-          <span className={`${aileron.className} `}>The internet's  most sus email service</span>
-          <p className={`text-sm md:text-lg text-gray-300  ${aileron.className} hero_text`}>
+          <h1 className={`${aileron.className} md:text-4xl text-xl`}>BLACKMA I L MONSTER</h1>
+          <span className={`${aileron.className} md:text-lg text-sm`}>The internet's  most sus email service</span>
+          <p className={`text-sm md:text-md sm:text-xs text-gray-300  ${aileron.className} text-left md:w-1/2`}>
             Yo, this is <a href="https://zayarmoekaung.website" target="blank">Zayar Moe Kaung’s</a> *exclusive* email flex, droppin’ vibes so sus they’re straight-up monstrous. No real blackmail here, just big troll energy, no cap. Right now, it’s my personal playground, but maybe one day I can expand this into a full blown service and you can start blackmailing too. Stay tuned, fam!
           </p>
           <svg
